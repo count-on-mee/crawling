@@ -8,6 +8,13 @@
 git clone https://github.com/count-on-mee/crawling.git
 cd crawling
 pip install beautifulsoup4
+pip install webdriver-manager
+</pre>
+
+### How to Run
+
+<pre>
+python main.py
 </pre>
 
 ### Structure
