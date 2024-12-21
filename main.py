@@ -31,7 +31,7 @@ retries = Retry(total=5, backoff_factor=0.1, status_forcelist=[500, 502, 503, 50
 session.mount('http://', HTTPAdapter(max_retries=retries))
 
 query = "신촌"
-url = "https://pcmap.place.naver.com/restaurant/list?query=" + query
+url = "https://pcmap.place.naver.com/place/list?query=" + query
 
 driver.get(url)
 source = driver.page_source
